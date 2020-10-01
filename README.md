@@ -36,13 +36,15 @@ get("/{name}") {
 
 Execução da aplicação
 
+<img src="https://github.com/alanvianaa/UFG-redes-lab03/blob/master/doc/ide.png" />
+
 Ao fazer uma requisição: http://0.0.0.0:8080/bulbasaur obtemos a imagem e alguns dados como tempo da requisição e o tamanho.
 
-<img src="https://github.com/alanvianaa/UFG-redes-lab03/blob/master/doc/ide.png" />
+<img src="https://github.com/alanvianaa/UFG-redes-lab03/blob/master/doc/captura_1.png" />
 
 Ao fazer uma requisição de um arquivo que não está presente, recebemos a página de não encontrado, com o HTTP status 404, conforme especificado no código da aplicação.
 
-<img src="https://github.com/alanvianaa/UFG-redes-lab03/blob/master/doc/captura_1.png" />
+<img src="https://github.com/alanvianaa/UFG-redes-lab03/blob/master/doc/404.png" />
 
 Fazendo o acesso por outro dispositivo, foi inserido o endereço ip da máquina server, no endpoint:
  http://192.168.1.8:8080/bulbasaur
